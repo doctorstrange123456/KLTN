@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KhoaLuanTotNghiepModelStoreContainer" CdmEntityContainer="KhoaLuanTotNghiepEntities1">
+    <EntitySetMapping Name="tbl_ContainerNoiDia">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_ContainerNoiDia">
+        <MappingFragment StoreEntitySet="tbl_ContainerNoiDia">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDCangNoiDia" ColumnName="IDCangNoiDia" />
+          <ScalarProperty Name="CangBD" ColumnName="CangBD" />
+          <ScalarProperty Name="CangDen" ColumnName="CangDen" />
+          <ScalarProperty Name="GiaThanh" ColumnName="GiaThanh" />
+          <ScalarProperty Name="PhiChungTu" ColumnName="PhiChungTu" />
+          <ScalarProperty Name="PhiVeSinhContainer" ColumnName="PhiVeSinhContainer" />
+          <ScalarProperty Name="PhiSuaChuaContainer" ColumnName="PhiSuaChuaContainer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ContainerXNkhau">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_ContainerXNkhau">
+        <MappingFragment StoreEntitySet="tbl_ContainerXNkhau">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDContainerXNKhau" ColumnName="IDContainerXNKhau" />
+          <ScalarProperty Name="DiemBD" ColumnName="DiemBD" />
+          <ScalarProperty Name="NgayBD" ColumnName="NgayBD" />
+          <ScalarProperty Name="DiemDen" ColumnName="DiemDen" />
+          <ScalarProperty Name="NgayDen" ColumnName="NgayDen" />
+          <ScalarProperty Name="GiaThanh" ColumnName="GiaThanh" />
+          <ScalarProperty Name="SoNgay" ColumnName="SoNgay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DaiLi">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_DaiLi">
+        <MappingFragment StoreEntitySet="tbl_DaiLi">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDDL" ColumnName="IDDL" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SoDT" ColumnName="SoDT" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="IDHD" ColumnName="IDHD" />
+          <ScalarProperty Name="IDTT" ColumnName="IDTT" />
+          <ScalarProperty Name="SoTK" ColumnName="SoTK" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DichVuVCNB">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_DichVuVCNB">
+        <MappingFragment StoreEntitySet="tbl_DichVuVCNB">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDVCNB" ColumnName="IDVCNB" />
+          <ScalarProperty Name="TenXe" ColumnName="TenXe" />
+          <ScalarProperty Name="NgayBD" ColumnName="NgayBD" />
+          <ScalarProperty Name="NgayDen" ColumnName="NgayDen" />
+          <ScalarProperty Name="DiaDiemXP" ColumnName="DiaDiemXP" />
+          <ScalarProperty Name="DiaDiemDen" ColumnName="DiaDiemDen" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="QuangDuong" ColumnName="QuangDuong" />
+          <ScalarProperty Name="TrongLuong" ColumnName="TrongLuong" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+          <ScalarProperty Name="IDHH" ColumnName="IDHH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DMVanDon">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_DMVanDon">
+        <MappingFragment StoreEntitySet="tbl_DMVanDon">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDVD" ColumnName="IDVD" />
+          <ScalarProperty Name="NameVD" ColumnName="NameVD" />
+          <ScalarProperty Name="Booking" ColumnName="Booking" />
+          <ScalarProperty Name="NgayTao" ColumnName="NgayTao" />
+          <ScalarProperty Name="NgayKhoiHanh" ColumnName="NgayKhoiHanh" />
+          <ScalarProperty Name="NgayKetThuc" ColumnName="NgayKetThuc" />
+          <ScalarProperty Name="DiemBD" ColumnName="DiemBD" />
+          <ScalarProperty Name="DiemDen" ColumnName="DiemDen" />
+          <ScalarProperty Name="Shipper" ColumnName="Shipper" />
+          <ScalarProperty Name="Consignee" ColumnName="Consignee" />
+          <ScalarProperty Name="NotifyParty" ColumnName="NotifyParty" />
+          <ScalarProperty Name="TenTau" ColumnName="TenTau" />
+          <ScalarProperty Name="SoChuyen" ColumnName="SoChuyen" />
+          <ScalarProperty Name="IDPort" ColumnName="IDPort" />
+          <ScalarProperty Name="PortOfLoading" ColumnName="PortOfLoading" />
+          <ScalarProperty Name="PortOfDischarging" ColumnName="PortOfDischarging" />
+          <ScalarProperty Name="PreCarriage" ColumnName="PreCarriage" />
+          <ScalarProperty Name="PlaceOfReceipt" ColumnName="PlaceOfReceipt" />
+          <ScalarProperty Name="OnCarriage" ColumnName="OnCarriage" />
+          <ScalarProperty Name="PlaceOfDelivery" ColumnName="PlaceOfDelivery" />
+          <ScalarProperty Name="ContainerNoAndSealNo" ColumnName="ContainerNoAndSealNo" />
+          <ScalarProperty Name="NumberOfPackages" ColumnName="NumberOfPackages" />
+          <ScalarProperty Name="DescriptionOfGoods" ColumnName="DescriptionOfGoods" />
+          <ScalarProperty Name="NetWeight" ColumnName="NetWeight" />
+          <ScalarProperty Name="GrossWeight" ColumnName="GrossWeight" />
+          <ScalarProperty Name="Measurement" ColumnName="Measurement" />
+          <ScalarProperty Name="FreightCollect" ColumnName="FreightCollect" />
+          <ScalarProperty Name="FreightPrepaid" ColumnName="FreightPrepaid" />
+          <ScalarProperty Name="PlaceAndDateOfIssue" ColumnName="PlaceAndDateOfIssue" />
+          <ScalarProperty Name="MBLNumber" ColumnName="MBLNumber" />
+          <ScalarProperty Name="HBLNumber" ColumnName="HBLNumber" />
+          <ScalarProperty Name="HinhThucVanCHuyen" ColumnName="HinhThucVanCHuyen" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="IDAir" ColumnName="IDAir" />
+          <ScalarProperty Name="IDSea" ColumnName="IDSea" />
+          <ScalarProperty Name="IDVessel" ColumnName="IDVessel" />
+          <ScalarProperty Name="IDDoor" ColumnName="IDDoor" />
+          <ScalarProperty Name="IDSender" ColumnName="IDSender" />
+          <ScalarProperty Name="IDSenderQuocGia" ColumnName="IDSenderQuocGia" />
+          <ScalarProperty Name="IDSenderDoor" ColumnName="IDSenderDoor" />
+          <ScalarProperty Name="IDSenderPort" ColumnName="IDSenderPort" />
+          <ScalarProperty Name="IDSenderTerminal" ColumnName="IDSenderTerminal" />
+          <ScalarProperty Name="SenderAddressInPort" ColumnName="SenderAddressInPort" />
+          <ScalarProperty Name="IDSenderKho" ColumnName="IDSenderKho" />
+          <ScalarProperty Name="IDReceiver" ColumnName="IDReceiver" />
+          <ScalarProperty Name="IDReceiverQuocGia" ColumnName="IDReceiverQuocGia" />
+          <ScalarProperty Name="IDReceiverDoor" ColumnName="IDReceiverDoor" />
+          <ScalarProperty Name="IDReceiverPort" ColumnName="IDReceiverPort" />
+          <ScalarProperty Name="IDReceiverTerminal" ColumnName="IDReceiverTerminal" />
+          <ScalarProperty Name="IDReceiverKho" ColumnName="IDReceiverKho" />
+          <ScalarProperty Name="ReceiverAddressInPort" ColumnName="ReceiverAddressInPort" />
+          <ScalarProperty Name="EnumReceiverAgent" ColumnName="EnumReceiverAgent" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+          <ScalarProperty Name="NguoiNhan" ColumnName="NguoiNhan" />
+          <ScalarProperty Name="DiaChiNguoiNhan" ColumnName="DiaChiNguoiNhan" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="SoXe" ColumnName="SoXe" />
+          <ScalarProperty Name="SoTuyen" ColumnName="SoTuyen" />
+          <ScalarProperty Name="IDHH" ColumnName="IDHH" />
+          <ScalarProperty Name="CuocPhi" ColumnName="CuocPhi" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="IDHTVC" ColumnName="IDHTVC" />
+          <ScalarProperty Name="TinhTrangVanDon" ColumnName="TinhTrangVanDon" />
+          <ScalarProperty Name="IDTTVD" ColumnName="IDTTVD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DongGoiHH">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_DongGoiHH">
+        <MappingFragment StoreEntitySet="tbl_DongGoiHH">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="HinhThucDongGoi" ColumnName="HinhThucDongGoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DVKho">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_DVKho">
+        <MappingFragment StoreEntitySet="tbl_DVKho">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDDVKho" ColumnName="IDDVKho" />
+          <ScalarProperty Name="TenNCC" ColumnName="TenNCC" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SoDT" ColumnName="SoDT" />
+          <ScalarProperty Name="NgayBD" ColumnName="NgayBD" />
+          <ScalarProperty Name="NgayDen" ColumnName="NgayDen" />
+          <ScalarProperty Name="SoNgay" ColumnName="SoNgay" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="TrongLuong" ColumnName="TrongLuong" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="IDHH" ColumnName="IDHH" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DVVC">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_DVVC">
+        <MappingFragment StoreEntitySet="tbl_DVVC">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDDVVC" ColumnName="IDDVVC" />
+          <ScalarProperty Name="TenNCC" ColumnName="TenNCC" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SoDT" ColumnName="SoDT" />
+          <ScalarProperty Name="NgayBD" ColumnName="NgayBD" />
+          <ScalarProperty Name="NgayDen" ColumnName="NgayDen" />
+          <ScalarProperty Name="SoNgay" ColumnName="SoNgay" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="QuangDuong" ColumnName="QuangDuong" />
+          <ScalarProperty Name="TrongLuong" ColumnName="TrongLuong" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="IDHH" ColumnName="IDHH" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_HangHoa">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_HangHoa">
+        <MappingFragment StoreEntitySet="tbl_HangHoa">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDHH" ColumnName="IDHH" />
+          <ScalarProperty Name="TenHH" ColumnName="TenHH" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="NgayXuat" ColumnName="NgayXuat" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="IDPLHH" ColumnName="IDPLHH" />
+          <ScalarProperty Name="TrongLuong" ColumnName="TrongLuong" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="IDDongGoi" ColumnName="IDDongGoi" />
+          <ScalarProperty Name="IDCangNoiDia" ColumnName="IDCangNoiDia" />
+          <ScalarProperty Name="IDContainerXNKhau" ColumnName="IDContainerXNKhau" />
+          <ScalarProperty Name="IDHTVC" ColumnName="IDHTVC" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+          <ScalarProperty Name="IDXNKhau" ColumnName="IDXNKhau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_HHXuat_NhapKhau">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_HHXuat_NhapKhau">
+        <MappingFragment StoreEntitySet="tbl_HHXuat-NhapKhau">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LoaiHangHoa" ColumnName="LoaiHangHoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_HopDong">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_HopDong">
+        <MappingFragment StoreEntitySet="tbl_HopDong">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDHD" ColumnName="IDHD" />
+          <ScalarProperty Name="NameHD" ColumnName="NameHD" />
+          <ScalarProperty Name="IDHH" ColumnName="IDHH" />
+          <ScalarProperty Name="NgayKy" ColumnName="NgayKy" />
+          <ScalarProperty Name="ChiPhi" ColumnName="ChiPhi" />
+          <ScalarProperty Name="ChiPhiNop" ColumnName="ChiPhiNop" />
+          <ScalarProperty Name="ChiPhiConLai" ColumnName="ChiPhiConLai" />
+          <ScalarProperty Name="IDDVVC" ColumnName="IDDVVC" />
+          <ScalarProperty Name="IDDVKho" ColumnName="IDDVKho" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_HTVanCHuyen">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_HTVanCHuyen">
+        <MappingFragment StoreEntitySet="tbl_HTVanCHuyen">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDHTVC" ColumnName="IDHTVC" />
+          <ScalarProperty Name="HinhThucVanChuyen" ColumnName="HinhThucVanChuyen" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_KhachHanga">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_KhachHanga">
+        <MappingFragment StoreEntitySet="tbl_KhachHanga">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+          <ScalarProperty Name="HoVaTen" ColumnName="HoVaTen" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="SoDT" ColumnName="SoDT" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DonVi" ColumnName="DonVi" />
+          <ScalarProperty Name="SoCMTND" ColumnName="SoCMTND" />
+          <ScalarProperty Name="IDQuocTich" ColumnName="IDQuocTich" />
+          <ScalarProperty Name="NguyenQuan" ColumnName="NguyenQuan" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="IDHH" ColumnName="IDHH" />
+          <ScalarProperty Name="IDHD" ColumnName="IDHD" />
+          <ScalarProperty Name="IDTT" ColumnName="IDTT" />
+          <ScalarProperty Name="SoTK" ColumnName="SoTK" />
+          <ScalarProperty Name="IDDVVC" ColumnName="IDDVVC" />
+          <ScalarProperty Name="IDDL" ColumnName="IDDL" />
+          <ScalarProperty Name="IDDVKho" ColumnName="IDDVKho" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_KhoNoiBo">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_KhoNoiBo">
+        <MappingFragment StoreEntitySet="tbl_KhoNoiBo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDKhoNB" ColumnName="IDKhoNB" />
+          <ScalarProperty Name="TenKho" ColumnName="TenKho" />
+          <ScalarProperty Name="NgayBD" ColumnName="NgayBD" />
+          <ScalarProperty Name="NgayXuat" ColumnName="NgayXuat" />
+          <ScalarProperty Name="DiaDiemKho" ColumnName="DiaDiemKho" />
+          <ScalarProperty Name="IDHH" ColumnName="IDHH" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="SoNgay" ColumnName="SoNgay" />
+          <ScalarProperty Name="TrongLuong" ColumnName="TrongLuong" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Login">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_Login">
+        <MappingFragment StoreEntitySet="tbl_Login">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="IDNhanVien" ColumnName="IDNhanVien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_PhanLoaiHH">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_PhanLoaiHH">
+        <MappingFragment StoreEntitySet="tbl_PhanLoaiHH">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDPLHH" ColumnName="IDPLHH" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_QuocTich">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_QuocTich">
+        <MappingFragment StoreEntitySet="tbl_QuocTich">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="QuocTich" ColumnName="QuocTich" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ThanhToan">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_ThanhToan">
+        <MappingFragment StoreEntitySet="tbl_ThanhToan">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="HinhThucThanhToan" ColumnName="HinhThucThanhToan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_TinhTrangVanDon">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_TinhTrangVanDon">
+        <MappingFragment StoreEntitySet="tbl_TinhTrangVanDon">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDTTVD" ColumnName="IDTTVD" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_VanDon">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tbl_VanDon">
+        <MappingFragment StoreEntitySet="tbl_VanDon">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDVD" ColumnName="IDVD" />
+          <ScalarProperty Name="NameVD" ColumnName="NameVD" />
+          <ScalarProperty Name="NgayTao" ColumnName="NgayTao" />
+          <ScalarProperty Name="DiemBD" ColumnName="DiemBD" />
+          <ScalarProperty Name="DiemDen" ColumnName="DiemDen" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
+          <ScalarProperty Name="NguoiNhan" ColumnName="NguoiNhan" />
+          <ScalarProperty Name="DiaChiNguoiNhan" ColumnName="DiaChiNguoiNhan" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="SoXe" ColumnName="SoXe" />
+          <ScalarProperty Name="SoTuyen" ColumnName="SoTuyen" />
+          <ScalarProperty Name="IDHH" ColumnName="IDHH" />
+          <ScalarProperty Name="CangBocHang" ColumnName="CangBocHang" />
+          <ScalarProperty Name="CangDoHang" ColumnName="CangDoHang" />
+          <ScalarProperty Name="CuocPhi" ColumnName="CuocPhi" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="IDHTVC" ColumnName="IDHTVC" />
+          <ScalarProperty Name="IDTTVD" ColumnName="IDTTVD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDMBaoGias">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tblDMBaoGia">
+        <MappingFragment StoreEntitySet="tblDMBaoGia">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDJOB" ColumnName="IDJOB" />
+          <ScalarProperty Name="IDObject" ColumnName="IDObject" />
+          <ScalarProperty Name="RefNo" ColumnName="RefNo" />
+          <ScalarProperty Name="NameVI" ColumnName="NameVI" />
+          <ScalarProperty Name="NameEN" ColumnName="NameEN" />
+          <ScalarProperty Name="EnumQuotationType" ColumnName="EnumQuotationType" />
+          <ScalarProperty Name="EnumCommondity" ColumnName="EnumCommondity" />
+          <ScalarProperty Name="ValidityDate" ColumnName="ValidityDate" />
+          <ScalarProperty Name="ValidityDuration" ColumnName="ValidityDuration" />
+          <ScalarProperty Name="ExpityDate" ColumnName="ExpityDate" />
+          <ScalarProperty Name="SenderDate" ColumnName="SenderDate" />
+          <ScalarProperty Name="IDSale" ColumnName="IDSale" />
+          <ScalarProperty Name="IDCurrency" ColumnName="IDCurrency" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="NoiDungBaoGia" ColumnName="NoiDungBaoGia" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+          <ScalarProperty Name="IsBookingConfirmed" ColumnName="IsBookingConfirmed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDMDoors">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tblDMDoor">
+        <MappingFragment StoreEntitySet="tblDMDoor">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EnumTypeOfDoor" ColumnName="EnumTypeOfDoor" />
+          <ScalarProperty Name="IDQuocGia" ColumnName="IDQuocGia" />
+          <ScalarProperty Name="IDCity" ColumnName="IDCity" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="NameVI" ColumnName="NameVI" />
+          <ScalarProperty Name="NameEN" ColumnName="NameEN" />
+          <ScalarProperty Name="AddressVI" ColumnName="AddressVI" />
+          <ScalarProperty Name="AddressEN" ColumnName="AddressEN" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDMPorts">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tblDMPort">
+        <MappingFragment StoreEntitySet="tblDMPort">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EnumPortType" ColumnName="EnumPortType" />
+          <ScalarProperty Name="IDQuocGia" ColumnName="IDQuocGia" />
+          <ScalarProperty Name="IDCity" ColumnName="IDCity" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="TaxCode" ColumnName="TaxCode" />
+          <ScalarProperty Name="NameVI" ColumnName="NameVI" />
+          <ScalarProperty Name="NameEN" ColumnName="NameEN" />
+          <ScalarProperty Name="AddressVI" ColumnName="AddressVI" />
+          <ScalarProperty Name="AddressEN" ColumnName="AddressEN" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblNhanSus">
+      <EntityTypeMapping TypeName="KhoaLuanTotNghiepModel.tblNhanSu">
+        <MappingFragment StoreEntitySet="tblNhanSu">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDChucVu" ColumnName="IDChucVu" />
+          <ScalarProperty Name="IDPhongBan" ColumnName="IDPhongBan" />
+          <ScalarProperty Name="MANHANSU" ColumnName="MANHANSU" />
+          <ScalarProperty Name="MST" ColumnName="MST" />
+          <ScalarProperty Name="HoTenVI" ColumnName="HoTenVI" />
+          <ScalarProperty Name="HoTenEN" ColumnName="HoTenEN" />
+          <ScalarProperty Name="NamSinh" ColumnName="NamSinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="QueQuan" ColumnName="QueQuan" />
+          <ScalarProperty Name="DiaChiThuongTru" ColumnName="DiaChiThuongTru" />
+          <ScalarProperty Name="DiaChiHienTai" ColumnName="DiaChiHienTai" />
+          <ScalarProperty Name="SoCMT" ColumnName="SoCMT" />
+          <ScalarProperty Name="NoiCapCMT" ColumnName="NoiCapCMT" />
+          <ScalarProperty Name="NgayCapCMT" ColumnName="NgayCapCMT" />
+          <ScalarProperty Name="SoHoChieu" ColumnName="SoHoChieu" />
+          <ScalarProperty Name="NoiCapHoChieu" ColumnName="NoiCapHoChieu" />
+          <ScalarProperty Name="NgayCapHoChieu" ColumnName="NgayCapHoChieu" />
+          <ScalarProperty Name="NgayHetHanHoChieu" ColumnName="NgayHetHanHoChieu" />
+          <ScalarProperty Name="NgayKyHopDong" ColumnName="NgayKyHopDong" />
+          <ScalarProperty Name="PictureNV" ColumnName="PictureNV" />
+          <ScalarProperty Name="SoTaiKhoanNH" ColumnName="SoTaiKhoanNH" />
+          <ScalarProperty Name="DiDong" ColumnName="DiDong" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SoTruong" ColumnName="SoTruong" />
+          <ScalarProperty Name="EnumTinhTrangHonNhan" ColumnName="EnumTinhTrangHonNhan" />
+          <ScalarProperty Name="EnumNhomMau" ColumnName="EnumNhomMau" />
+          <ScalarProperty Name="ChieuCao" ColumnName="ChieuCao" />
+          <ScalarProperty Name="CanNang" ColumnName="CanNang" />
+          <ScalarProperty Name="LUONGCOBAN" ColumnName="LUONGCOBAN" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="EditDate" ColumnName="EditDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

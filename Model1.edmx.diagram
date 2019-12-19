@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2bf8c596f34c4708bd0560985ed562e3" Name="Diagram1">
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_ContainerNoiDia" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_ContainerXNkhau" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_DaiLi" Width="1.5" PointX="1.5" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_DichVuVCNB" Width="1.5" PointX="5.25" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_DMVanDon" Width="1.5" PointX="8.25" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_DongGoiHH" Width="1.5" PointX="0.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_DVKho" Width="1.5" PointX="5.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_DVVC" Width="1.5" PointX="5.25" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_HangHoa" Width="1.5" PointX="3" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_HHXuat_NhapKhau" Width="1.5" PointX="0.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_HopDong" Width="1.5" PointX="3" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_HTVanCHuyen" Width="1.5" PointX="0.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_KhachHanga" Width="1.5" PointX="0.75" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_KhoNoiBo" Width="1.5" PointX="11.25" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_Login" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_PhanLoaiHH" Width="1.5" PointX="0.75" PointY="45.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_QuocTich" Width="1.5" PointX="1.5" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_ThanhToan" Width="1.5" PointX="1.5" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_TinhTrangVanDon" Width="1.5" PointX="9" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tbl_VanDon" Width="1.5" PointX="11.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tblDMBaoGia" Width="1.5" PointX="6" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tblDMDoor" Width="1.5" PointX="6" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tblDMPort" Width="1.5" PointX="6" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KhoaLuanTotNghiepModel.tblNhanSu" Width="1.5" PointX="6" PointY="39.125" IsExpanded="true" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_HangHoa_tbl_ContainerNoiDia" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_HangHoa_tbl_ContainerXNkhau" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_KhachHanga_tbl_DaiLi" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DichVuVCNB_tbl_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DichVuVCNB_tbl_KhachHanga" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DMVanDon_tbl_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DMVanDon_tbl_KhachHanga" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DMVanDon_tblDMBaoGia" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DMVanDon_tblDMDoor" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DMVanDon_tblDMPort" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DMVanDon_tblNhanSu" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_HangHoa_tbl_DongGoiHH" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DVKho_tbl_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_DVVC_tbl_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_HangHoa_tbl_HHXuat_NhapKhau" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_HangHoa_tbl_HTVanCHuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_HangHoa_tbl_KhachHanga" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_HangHoa_tbl_PhanLoaiHH" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_KhoNoiBo_tbl_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_VanDon_tbl_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_HopDong_tbl_KhachHanga" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_VanDon_tbl_HTVanCHuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_KhachHanga_tbl_QuocTich" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_KhachHanga_tbl_ThanhToan" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_KhoNoiBo_tbl_KhachHanga" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_VanDon_tbl_KhachHanga" ManuallyRouted="false" />
+        <AssociationConnector Association="KhoaLuanTotNghiepModel.FK_tbl_VanDon_tbl_TinhTrangVanDon" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
